@@ -15,5 +15,18 @@ class QueueItem
   def self.all
     @@all
   end
-  
+
+
+  # def viewer
+  #   queue_items.map(&:viewer)
+  # end
+  #
+  # def movie
+  #   .map(&:movie)
+  # end
+  # 
+  # def rating
+  #
+  # end
+
 end
