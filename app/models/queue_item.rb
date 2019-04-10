@@ -16,15 +16,21 @@ class QueueItem
     @@all
   end
 
-
-  # def viewer
-  #   queue_items.map(&:viewer)
-  # end
-  #
-  # def movie
-  #   .map(&:movie)
-  # end
   # 
+  # def viewer
+  #   @@all.select do |person|
+  #     binding.pry
+  #     person.viewer
+  #   end
+  # end
+  def viewer
+    @@all.map(&:viewer)
+  end
+
+  def movie
+    @@all.map(&:movie)
+  end
+
   # def rating
   #
   # end
